@@ -1,0 +1,30 @@
+.history-row-no-pad {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.history-col-left-card {
+  padding: 0%;
+  padding-right: 0.6rem;
+}
+
+.history-col-right-card {
+  padding: 0%;
+  padding-left: 0.6rem;
+}
+
+@media (max-width: 767px) {
+  .history-row-no-pad {
+    flex-direction: column;
+  }
+
+  .history-col-left-card {
+    padding: 0%;
+  }
+
+  .history-col-right-card {
+    padding: 0%;
+    margin-top: 1.2rem;
+  }
+}
